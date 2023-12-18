@@ -1,8 +1,25 @@
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple weather application that provides hourly and multi-day weather forecasts. You can search for weather information by city name, location, or IP address.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hourly Weather Forecast
+- Multi-Day Weather Forecast
+- Search by City Name, Location, or IP Address
+
+## Technologies Used
+
+- React
+- Vite
+- Axios
+- React Icons
+- React Loader Spinner
+
+## How to Run
+
+1. Clone the repository: `git clone https://github.com/wolterGray/react-weather.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+
+Feel free to contribute or report issues!
