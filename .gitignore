@@ -5,4 +5,5 @@ node_modules/
 src/constants/apiKey.js
 .vscode/
 .idea/
+vite.config.js.timestamp-1702560316642-e785a40bf0062.mjs
 *.log
