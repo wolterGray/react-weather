@@ -1,0 +1,8 @@
+dist/
+build/
+.DS_Store
+node_modules/
+src/constants/apiKey.js
+.vscode/
+.idea/
+*.log

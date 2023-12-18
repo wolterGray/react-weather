@@ -1,0 +1,83 @@
+.airConditions {
+	background: var(--bg-wind-color);
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+	height: 100%;
+	box-shadow: 5px 2px 5px 1px rgba(0, 0, 0, 0.265);
+	// border: 1px solid var(--border-color);
+}
+.title {
+	margin-bottom: 10px;
+}
+.info {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	height: calc(100% - 10px);
+	align-items: center;
+}
+.item {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+
+	padding: 10px;
+}
+.info_title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.icon {
+	width: 50px;
+	max-height: 50px;
+	transform: scale(1.5);
+}
+.value {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+	.icon {
+		width: 40px;
+	}
+	.info_title {
+		text-wrap: nowrap;
+	}
+}
+@media screen and (max-width: 600px) {
+	.info {
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Две колонки */
+		grid-template-rows: auto 1fr; /* Первая строка автоматическая, вторая - занимает все доступное пространство */
+		gap: 10px; /* Пространство между ячейками, если необходимо */
+	}
+	.left_inner {
+		grid-column: 1; /* Элемент находится в первой колонке */
+		grid-row: 1; /* Элемент находится в первой строке */
+	}
+	.center_inner {
+		grid-column: 2; /* Элемент находится во второй колонке */
+		grid-row: 1; /* Элемент находится в первой строке */
+	}
+
+	.right_inner {
+		grid-column: span 2; /* Элемент занимает обе колонки */
+		grid-row: 2; /* Элемент находится во второй строке */
+		display: flex;
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 500px){
+	.info_title{
+		font-size: 16px;
+	}
+	.value{
+		font-size: 16px;
+	}
+	.icon{
+		width: 30px;
+	}
+}

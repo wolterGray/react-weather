@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  user-select: none;
+}
+.errorMessage {
+  position: absolute;
+  right: 15%;
+  top: 1%;
+  z-index: 1;
+  background-color: var(--bg-color);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  user-select: none;
+  border: 1px solid var(--elem-color);
+  animation: error 10s ease-in;
+  opacity: 0;
+  color: var(--primary-text-color);
+  box-shadow: 2px 2px 3px 1px  rgba(0, 0, 0, 0.537);
+}
+@keyframes error {
+  
+  0% {
+    
+    transform: translateY(-100%);
+  }
+  5% {
+    transform: translateX(0);
+  }
+  8%{
+    opacity: 1;
+  }
+  50% {
+    
+    
+  }
+  90%{
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+   visibility: hidden;
+
+  }
+}

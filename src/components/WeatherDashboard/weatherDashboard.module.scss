@@ -1,0 +1,20 @@
+.weather{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.weather_row {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	gap: 20px;
+	height: 100%;
+}
+
+
+
+@media screen and (max-width:900px) {
+	.weather_row {
+		grid-template-columns: 1fr;
+	}
+}
+

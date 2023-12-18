@@ -1,0 +1,16 @@
+.home{
+	width: 60%;
+	
+}
+.arrow{
+	font-size: 50px;
+	transform: rotate(180deg);
+	color: var(--elem-color);
+	stroke-width:1;
+}
+
+.guide{
+	display: flex;
+	gap: 30px;
+	margin-top: 30px;
+}
