@@ -2,7 +2,7 @@
 
 This is a simple weather forecast web application in React. The application provides weather information hourly and for several days in advance. You can get the forecast by city name, location or IP address.
 
-##Content
+## Content
 
   •Installation
   
@@ -10,39 +10,39 @@ This is a simple weather forecast web application in React. The application prov
   
   •Dependencies
 
-##Installation
+## Installation
 
-###1. Clone the repository:
+### 1. Clone the repository:
     ```bash
    git clone https://github.com/wolterGray/react-weather.git
 
-###2.Go to the project directory:
+### 2.Go to the project directory:
 
   cd react-weather
 
-###3.Install dependencies:
+### 3.Install dependencies:
 
   npm install
 
 Open http://localhost:3000 in your browser.
 
-##Usage
+## Usage
 
 ###1.Run the application in development mode:
 
   npm run dev
 
-###2.To build the application:
+### 2.To build the application:
 
   npm run build
 
-###3.To deploy to GitHub Pages:
+### 3.To deploy to GitHub Pages:
 
   npm run deploy
 
 Once deployed, your application will be available at https://wolterGray.github.io/react-weather.
 
-###Dependencies
+### Dependencies
 
   •React
   
