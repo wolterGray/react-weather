@@ -11,8 +11,10 @@ This is a simple weather application that provides hourly and multi-day weather 
 - Multi-Day Weather Forecast
 - Information about pressure, real sensations, maximum and minimum temperature, humidity and wind speed.
 - Tracking geoposition or location via IP.
+- The application provides an error page with an informative message about the encountered error, along with an option for the user to return to the main page.
 - Switch between Celsius and Fahrenheit.
 - Changing the interface theme.
+  
 
 ## Technologies Used
 
@@ -26,17 +28,15 @@ This is a simple weather application that provides hourly and multi-day weather 
 
 The application includes handling for various error scenarios to ensure a better user experience.
 
-### 1. City Not Found or Incorrect Input:
+##### 1. City Not Found or Incorrect Input:
 
 If the entered city is not found or contains incorrect characters, the application will display an error message, alerting the user to the issue.
 
-### 2. No Internet Connection or Unknown Error:
+##### 2. No Internet Connection or Unknown Error:
 
 If there is no internet connection or an unknown error occurs while fetching weather data, the application automatically redirects the user to an error page with information about the encountered problem.
 
-### Error Page:
 
-The application provides an error page with an informative message about the encountered error, along with an option for the user to return to the main page.
 
 ### Used Icons
 
