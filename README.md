@@ -38,6 +38,11 @@ If there is no internet connection or an unknown error occurs while fetching wea
 
 The application provides an error page with an informative message about the encountered error, along with an option for the user to return to the main page.
 
+### Used Icons
+
+The project uses icons provided by the [basmilius](https://github.com/basmilius/weather-icons.git).
+
+
 ## How to Run
 
 1. Clone the repository: `git clone https://github.com/wolterGray/react-weather.git`
