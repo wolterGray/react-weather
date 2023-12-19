@@ -4,56 +4,56 @@ This is a simple weather forecast web application in React. The application prov
 
 ## Content
 
-  •Installation
+    •Installation
   
-  •Usage
+    •Usage
   
-  •Dependencies
+    •Dependencies
 
 ## Installation
 
 ### 1. Clone the repository:
     ```bash
-   git clone https://github.com/wolterGray/react-weather.git
+     git clone https://github.com/wolterGray/react-weather.git
 
 ### 2.Go to the project directory:
 
-  cd react-weather
+    `cd react-weather`
 
 ### 3.Install dependencies:
 
-  npm install
+    `npm install`
 
 Open http://localhost:3000 in your browser.
 
 ## Usage
 
-###1.Run the application in development mode:
+### 1.Run the application in development mode:
 
-  npm run dev
+    `npm run dev`
 
 ### 2.To build the application:
 
-  npm run build
+    `npm run build`
 
 ### 3.To deploy to GitHub Pages:
 
-  npm run deploy
+    `npm run deploy`
 
 Once deployed, your application will be available at https://wolterGray.github.io/react-weather.
 
 ### Dependencies
 
-  •React
+    •React
   
-  •Vite
+    •Vite
   
-  •Axios
+    •Axios
   
-  •React Icons
+    •React Icons
   
-  •React Loader Spinner
+    •React Loader Spinner
 
 ##License
 
-  This project is licensed under the MIT license - see file for details LICENSE.
+    This project is licensed under the MIT license - see file for details LICENSE.
