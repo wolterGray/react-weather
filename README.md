@@ -47,14 +47,14 @@ The project uses icons provided by the [basmilius](https://github.com/basmilius/
 
 1. Clone the repository:
    
-       `git clone https://github.com/wolterGray/react-weather.git`
+       git clone https://github.com/wolterGray/react-weather.git
   
 3. Install dependencies:
  
-       `npm install`
+       npm install
    
 4. Run the development server:
  
-       `npm run dev`
+       npm run dev
 
 Feel free to contribute or report issues!
